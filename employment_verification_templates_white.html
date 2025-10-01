@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Employment Verification – Email Reply Templates</title>
+  <style>
+    /* Page (tool UI) styles — white layout for clarity */
+    :root{ --ink:#111; --muted:#555; --border:#d0d7de; --radius:14px; --bg:#ffffff; }
+    *{box-sizing:border-box}
+    body{ margin:0; font-family: ui-sans-serif,-apple-system,"Segoe UI",Roboto,Arial,Helvetica,sans-serif; line-height:1.58; color:var(--ink); background:var(--bg); }
+    header{ max-width:900px; margin:32px auto 16px; padding:0 16px; }
+    h1{ margin:0 0 4px; font-size:24px }
+    .sub{ color:var(--muted); margin:0 0 12px }
+    main{ max-width:900px; margin:0 auto 40px; padding:0 16px; display:grid; gap:20px }
+    .card{ border:1px solid var(--border); border-radius:var(--radius); padding:16px; background:#fff }
+    .head{ display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:10px }
+    .title{ font-weight:700 }
+    .btns{ display:flex; gap:8px; flex-wrap:wrap }
+    button{ appearance:none; border:1px solid var(--border); background:#fff; color:#111; padding:10px 14px; border-radius:10px; cursor:pointer; font-weight:600 }
+    button:hover{ background:#f6f8fa }
+    .subject{ color:#333; font-size:13px; margin:0 0 10px; padding-left:8px; border-left:3px solid #1a73e8 }
+    .email{ border:1px solid var(--border); border-radius:12px; padding:14px; background:#fff; }
+    .hint{ color:var(--muted); font-size:12px; margin-top:8px }
+    .footer{ max-width:900px; margin:8px auto 24px; text-align:center; color:var(--muted); font-size:12px }
+    code{ background:#f6f8fa; border:1px solid var(--border); padding:2px 6px; border-radius:6px }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Employment Verification – Reply Templates</h1>
+    <p class="sub">White, email‑ready layout • Copy buttons preserve formatting in Gmail/Outlook.</p>
+  </header>
+
+  <main>
+    <!-- WITH TABLE -->
+    <section class="card">
+      <div class="head">
+        <div class="title">Option 1 — With Table (matches their table shape)</div>
+        <div class="btns">
+          <button onclick="copyHtml('email-table')">Copy Email (HTML)</button>
+          <button onclick="copyPlain('email-table')">Copy Email (Plain Text)</button>
+        </div>
+      </div>
+      <p class="subject"><strong>Subject:</strong> Employment Verification – Mohammad Ramzi Melhem</p>
+      <!-- Email block with inline styles so it pastes cleanly -->
+      <div id="email-table" class="email" contenteditable="false">
+        <div style="font-family: Arial, Helvetica, sans-serif; color:#111; line-height:1.58; background:#fff;">
+          <p style="margin:0 0 12px;">Dear Madam/Sir,</p>
+          <p style="margin:0 0 12px;">Thank you for your inquiry regarding the employment verification of Mr. Mohammad Ramzi Melhem. Please find below the verified details from our records:</p>
+          <table style="width:100%; border-collapse:collapse; margin:6px 0 12px; table-layout:fixed; background:#fff; font-size:14px;">
+            <!-- two-column shape with left labels, bordered cells -->
+            <tr>
+              <td style="width:40%; border:1px solid #d0d7de; padding:8px; background:#f9fafb; font-weight:700;">Candidate’s Name</td>
+              <td style="border:1px solid #d0d7de; padding:8px;">Mohammad Ramzi Melhem</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid #d0d7de; padding:8px; background:#f9fafb; font-weight:700;">Company</td>
+              <td style="border:1px solid #d0d7de; padding:8px;">Albaddad</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid #d0d7de; padding:8px; background:#f9fafb; font-weight:700;">DOB</td>
+              <td style="border:1px solid #d0d7de; padding:8px;">07-Mar-1990</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid #d0d7de; padding:8px; background:#f9fafb; font-weight:700;">Position</td>
+              <td style="border:1px solid #d0d7de; padding:8px;">Sales Director</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid #d0d7de; padding:8px; background:#f9fafb; font-weight:700;">Started</td>
+              <td style="border:1px solid #d0d7de; padding:8px;">01-Jun-2021</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid #d0d7de; padding:8px; background:#f9fafb; font-weight:700;">Finished</td>
+              <td style="border:1px solid #d0d7de; padding:8px;">14-Aug-2024</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid #d0d7de; padding:8px; background:#f9fafb; font-weight:700;">Reason for leaving</td>
+              <td style="border:1px solid #d0d7de; padding:8px;">Resigned to pursue another role</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid #d0d7de; padding:8px; background:#f9fafb; font-weight:700;">Would you recommend the candidate</td>
+              <td style="border:1px solid #d0d7de; padding:8px;">Yes</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid #d0d7de; padding:8px; background:#f9fafb; font-weight:700;">Your Name and Position</td>
+              <td style="border:1px solid #d0d7de; padding:8px;">Enas Othman, HR Manager</td>
+            </tr>
+          </table>
+          <p style="margin:0 0 12px;">Should you need any additional information, please do not hesitate to contact me.</p>
+          <p style="margin:0 0 0;" class="sig">Best regards,<br/>Enas Othman<br/>HR Manager<br/>Albaddad</p>
+        </div>
+      </div>
+      <p class="hint">Use <code>Copy Email (HTML)</code> to keep the exact white table and borders when pasting.</p>
+    </section>
+
+    <!-- PLAIN TEXT -->
+    <section class="card">
+      <div class="head">
+        <div class="title">Option 2 — Without Table (plain text)</div>
+        <div class="btns">
+          <button onclick="copyPlain('email-plain')">Copy Email (Plain Text)</button>
+        </div>
+      </div>
+      <p class="subject"><strong>Subject:</strong> Employment Verification – Mohammad Ramzi Melhem</p>
+      <div id="email-plain" class="email" contenteditable="false">
+        <div style="font-family: Arial, Helvetica, sans-serif; color:#111; line-height:1.58; background:#fff;">
+          <p style="margin:0 0 12px;">Dear Madam/Sir,</p>
+          <p style="margin:0 0 12px;">Thank you for your inquiry regarding the employment verification of Mr. Mohammad Ramzi Melhem. According to our records, the details are as follows:</p>
+          <ul style="margin:0 0 12px 18px; padding:0;">
+            <li><strong>Candidate’s Name:</strong> Mohammad Ramzi Melhem</li>
+            <li><strong>Company:</strong> Albaddad</li>
+            <li><strong>DOB:</strong> 07-Mar-1990</li>
+            <li><strong>Position:</strong> Sales Director</li>
+            <li><strong>Employment Period:</strong> 01-Jun-2021 to 14-Aug-2024</li>
+            <li><strong>Reason for Leaving:</strong> Resigned to pursue another role</li>
+            <li><strong>Recommendation:</strong> Yes, I would recommend</li>
+            <li><strong>Verified By:</strong> Enas Othman, HR Manager</li>
+          </ul>
+          <p style="margin:0 0 0;">Please feel free to contact me if you need any further clarification.</p>
+          <p style="margin:12px 0 0;" class="sig">Best regards,<br/>Enas Othman<br/>HR Manager<br/>Albaddad</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="footer">Copy buttons attach both HTML and plain text to the clipboard for best results in email clients.</div>
+
+  <script>
+    // Copy HTML: places both HTML and text on clipboard (best for Gmail/Outlook)
+    async function copyHtml(id){
+      const node = document.getElementById(id);
+      const html = node.innerHTML;
+      const plain = toPlain(node);
+      if (navigator.clipboard && window.ClipboardItem){
+        try{
+          const data = new ClipboardItem({
+            "text/html": new Blob([html], {type: "text/html"}),
+            "text/plain": new Blob([plain], {type: "text/plain"})
+          });
+          await navigator.clipboard.write([data]);
+          toast('Email (HTML) copied ✅');
+          return;
+        }catch(e){ /* fallback below */ }
+      }
+      legacyCopy(html, false);
+    }
+
+    // Copy plain text only
+    async function copyPlain(id){
+      const node = document.getElementById(id);
+      const plain = toPlain(node);
+      try{
+        await navigator.clipboard.writeText(plain);
+        toast('Email (plain text) copied ✅');
+      }catch(e){
+        legacyCopy(plain, true);
+      }
+    }
+
+    function toPlain(node){
+      const clone = node.cloneNode(true);
+      // Convert <br> -> newline
+      clone.querySelectorAll('br').forEach(br=>br.replaceWith('\n'));
+      // Convert table to label: value lines
+      clone.querySelectorAll('table').forEach(t=>{
+        const lines=[];
+        t.querySelectorAll('tr').forEach(tr=>{
+          const c=[...tr.children].map(x=>x.textContent.trim());
+          if(c.length===2){ lines.push(c[0]+': '+c[1]); }
+        });
+        const rep=document.createElement('p');
+        rep.textContent=lines.join('\n');
+        t.replaceWith(rep);
+      });
+      return clone.innerText.replace(/\n{3,}/g,'\n\n').trim();
+    }
+
+    // Fallback copy
+    function legacyCopy(content, isText){
+      const el = document.createElement(isText ? 'textarea' : 'div');
+      if(isText){ el.value = content; document.body.appendChild(el); el.select(); }
+      else{ el.innerHTML = content; document.body.appendChild(el); const r=document.createRange(); r.selectNodeContents(el); const s=window.getSelection(); s.removeAllRanges(); s.addRange(r); }
+      document.execCommand('copy');
+      el.remove();
+      toast('Copied ✅');
+    }
+
+    function toast(msg){
+      const t=document.createElement('div');
+      t.textContent=msg;
+      t.style.position='fixed'; t.style.bottom='18px'; t.style.right='18px';
+      t.style.padding='10px 14px'; t.style.background='#111'; t.style.color='#fff';
+      t.style.borderRadius='10px'; t.style.opacity='0.95';
+      document.body.appendChild(t);
+      setTimeout(()=>t.remove(),1600);
+    }
+  </script>
+</body>
+</html>
